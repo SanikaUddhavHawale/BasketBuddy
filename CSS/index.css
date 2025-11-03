@@ -1,0 +1,87 @@
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 1%;
+}
+.left{
+    width: 35%;
+    margin: 10px;
+    background-color: rgb(220, 245, 220);
+}
+.left img{
+    height:14rem;
+    margin-top: 8rem;
+}
+.left p{
+    text-align: center;
+    margin-top: 10;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(11, 119, 11);
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.right{
+    width: 61%;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+}
+.find{
+    background-color: rgb(245, 245, 245);
+    height: 2rem;
+    width: 20rem;
+    border-radius: 10px;
+    align-content: center;
+    padding-left: 15px;
+    color: gray;
+}
+.nav2{
+    text-align: center;
+    background-color: rgb(74, 175, 120);
+    color: white;
+    padding-left: 6rem;
+}
+.nav2 .material-symbols-outlined{
+    margin-left: 1rem;
+    margin-right: 1rem;
+     padding: 5px;
+}
+
+.banner img{
+    margin: 1rem;
+    margin-left: 4rem;
+    height: 15rem;
+    width: 85%;
+    align-content: center;
+}
+.demand{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+.d1{
+    display: flex;
+    flex-direction: column;
+}
+.d1 img{
+    height: 10rem;
+    border-radius: 20px;
+}
+.d1 button{
+    background-color: rgb(74, 175, 120);
+    padding: 5px 62px;
+    margin: 1rem;
+    border: none;
+    color: white;
+}
+.d1 button:hover{
+    color: rgb(1, 77, 1);
+    background-color: white;
+}
+
