@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/fruit.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav1">
+                <div class="title">
+                    <h1>Basket<span style="color: rgb(177, 129, 66);">Buddy</span></h1>
+                </div>
+                <div class="find">
+                    <search>Search</search>
+                </div>
+                <div class="buy">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                </div>
+            </nav>
+
+            <nav class="nav2">
+                <span class="material-symbols-outlined">home</span>
+                <span class="material-symbols-outlined">shopping_bag</span>
+                <span class="material-symbols-outlined">featured_seasonal_and_gifts</span>
+                <span class="material-symbols-outlined">sell</span>
+                <span class="material-symbols-outlined">credit_card</span>
+                <span class="material-symbols-outlined">grocery</span>
+                <span class="material-symbols-outlined">percent_discount</span>
+                <span class="material-symbols-outlined">package_2</span>
+                <span class="material-symbols-outlined">nutrition</span>
+            </nav>
+
+            <div class="demand1">
+            <div class="d">
+                <img src="./Images/apple.png" alt="">
+                <button>Buy</button>
+            </div>
+            <div class="d">
+                <img src="./Images/banana.png" alt="">
+                <button>Buy</button>
+            </div>
+            <div class="d">
+                <img src="./Images/blueberry.png" alt="">
+                <button>Buy</button>
+            </div>
+            <div class="d">
+                <img src="./Images/cherry.png" alt="">
+                <button>Buy</button>
+            </div>
+             <div class="d">
+                <img src="./Images/orange.png" alt="">
+                <button>Buy</button>
+            </div>
+             <div class="d">
+                <img src="./Images/cherry.png" alt="">
+                <button>Buy</button>
+            </div>
+             <div class="d">
+                <img src="./Images/strawberry.png" alt="">
+                <button>Buy</button>
+            </div>
+        </div>
+
+         <footer>
+    BasketBuddy &copy; 2025 | Developed for JavaScript Fundamentals <br>
+follow us on | 
+ ⓕ 🅾 ✉ 𝕏<br>
+    <a href="#">Back to Top</a>
+  </footer>
+</body>
+ <script>
+  
+    // Q9. Declare Variables
+    
+    var shopName = "BasketBuddy";
+    let totalItems = 0;
+    const taxRate = 0.05;
+
+    alert(shopName); // Display shop name
+
+
+    
+    // Q10. Create a Grocery Array
+    
+    let groceryItems = ["Apple", "Milk", "Bread", "Chips", "Juice"];
+
+    console.log("First item:", groceryItems[0]);
+    console.log("Last item:", groceryItems[groceryItems.length - 1]);
+
+
+   
+    // Q11. Use Objects for Products
+    
+    let product = {
+      name: "Banana",
+      price: 60,
+      category: "Fruits",
+      inStock: true
+    };
+
+    console.log("Product Details:", product);
+    alert("Product: " + product.name + 
+          "\nPrice: " + product.price + 
+          "\nCategory: " + product.category + 
+          "\nIn Stock: " + product.inStock);
+
+
+ 
+    // Q12. Perform Price Calculation
+   
+    let price = 100;
+    let quantity = 3;
+    let total = price * quantity;
+
+    alert("Total Price: " + total);
+  </script>
+</html>
